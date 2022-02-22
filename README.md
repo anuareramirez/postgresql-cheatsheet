@@ -4,7 +4,7 @@
   ```
   username# psql
   ```
-
+  
   #Salir de postgresql
   ```
   database# \q
@@ -107,11 +107,16 @@
   ```
 </details>
 
-<details><summary>Operadores</summary>
-  
-  
-  
-  
+<details><summary>Operadores de comparación</summary>
+  ```
+  database# SELECT 1 = 2 //EQUAL
+  database# SELECT 1 < 2
+  database# SELECT 1 <= 2
+  database# SELECT 1 >= 2
+  database# SELECT 1 > 2
+  database# SELECT 1 <> 2 //NOT EQUAL
+
+  ```
 </details>
 
 
